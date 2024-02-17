@@ -10,7 +10,7 @@ This project demonstrates a simple multi-channel Notification Delivery System fo
 ## Project Architecture
 The project contains the following components:
 - Notification Handler: Responsible for creating the instances of different components and communicating with Service and Channel Components.
-- Notification Service: Responsible for receiving notification requests and dispatching them to appropriate communication channels using the `sendNotification``` method.
+- Notification Service: Responsible for receiving notification requests and dispatching them to appropriate communication channels using the ```sendNotification``` method.
 - Communication Manager: Responsible for registering and storing the details of available channels using the ```register``` method and transmitting the message using the ```transmit``` method.
 - Push Channel, Email Channel, SMS Channel, WhatsApp Channel, Custom Channel: Responsible for their own implementation of functionalities and sending respective notifications using the ```send``` method.
 
