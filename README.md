@@ -26,3 +26,5 @@ The project contains the following components:
   
 ![image](https://github.com/harshagrwl/Notification-Delivery-System/assets/43218240/dca0d839-9db9-4177-9dac-b1cc8f258100)
 
+- NOTE: This project demonstrates the core idea of handling multi-channel notifications. The actual implementation of sending SMS, Email, Push Notifications, WhatsApp messages, etc will be taken care in the future with the help of respective APIs.
+
